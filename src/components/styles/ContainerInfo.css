@@ -9,19 +9,21 @@
 
 
 .containerInfo__quote {
-    color: #727272;
+    color: #2f2d2d;
     padding: 20px;
     text-align: center;
-    background-image: url("/public/images/Rectangle.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    aspect-ratio: 3;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.33) 100%);
+    border-radius: 39px;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
+}
+
+.player {
+    width: 200px;
 }
 
 .containerInfo__quote p {

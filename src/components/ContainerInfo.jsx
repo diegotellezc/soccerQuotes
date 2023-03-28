@@ -9,12 +9,15 @@ const ContainerInfo = ({ quote, CreateNewQuote }) => {
             <h1 className='containerInfo__title'>Frases Graciosas en el Fútbol</h1>
 
             <article className='containerInfo__quote'>
+                <img className='player' src="/public/images/futbolista1.png" alt="" />
                 <p>{quote.quote}</p>
             </article>
 
             <article className='containerInfo__author'>
                 <h4>Autor: {quote.author}</h4>
             </article>
+
+            
 
             <Button CreateNewQuote={CreateNewQuote}/>
 
