@@ -1,0 +1,56 @@
+.containerInfo__title {
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    font-size: 42px;
+    text-shadow: -4px 1px 1px rgb(190, 186, 186);
+    margin-bottom: 1.5rem;
+}
+
+
+.containerInfo__quote {
+    color: #727272;
+    padding: 20px;
+    text-align: center;
+    background-image: url("/public/images/Rectangle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.containerInfo__quote p {
+    padding-bottom: 0;
+    padding-right: 15px;
+    font-size: 1.1rem;
+}
+
+.containerInfo__author {
+    background-color: rgba(255, 255, 255, 0.618);
+    color: #3f3f3f;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px 20px;
+    max-width: max-content;
+    margin: 15px auto 0;
+}
+
+@media (min-width: 758px) {
+    .containerInfo__quote {
+        max-width: 600px;
+    }
+
+    .containerInfo__title {
+        font-size: 60px;
+        margin-bottom: 2rem;
+    }
+
+    .containerInfo__quote p {
+        font-size: 1.4rem;
+    }
+}
