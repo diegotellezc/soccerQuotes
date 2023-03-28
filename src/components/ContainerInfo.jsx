@@ -2,14 +2,14 @@ import React from 'react'
 import Button from './Button'
 import "./styles/ContainerInfo.css"
 
-const ContainerInfo = ({ quote, CreateNewQuote }) => {
+const ContainerInfo = ({ quote, player, CreateNewQuote }) => {
 
     return (
         <section className='containerInfo'>
             <h1 className='containerInfo__title'>Frases Graciosas en el Fútbol</h1>
 
             <article className='containerInfo__quote'>
-                <img className='player' src="/images/futbolista2.png" alt="player img" />
+                <img className='player' src={`/images/futbolista${player}.png`} alt="player img" />
                 <p>{quote.quote}</p>
             </article>
 
