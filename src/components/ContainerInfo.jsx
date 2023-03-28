@@ -9,7 +9,7 @@ const ContainerInfo = ({ quote, CreateNewQuote }) => {
             <h1 className='containerInfo__title'>Frases Graciosas en el Fútbol</h1>
 
             <article className='containerInfo__quote'>
-                <img className='player' src="/public/images/futbolista2.png" alt="" />
+                <img className='player' src="/images/futbolista2.png" alt="player img" />
                 <p>{quote.quote}</p>
             </article>
 
